@@ -1,0 +1,94 @@
+body{
+    background: #C83803;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+ }
+ 
+
+ /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
+    background-color: #0B162A; /* Bears Navy Blue */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #C83803; /* Bears Orange */
+}
+
+.navbar-brand, .nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: #FFD700 !important; /* A lighter shade for hover effect */
+}
+
+/* Hero Section */
+.bg-light {
+    background-color: #0B162A !important; /* Bears Navy Blue */
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #C83803; /* Bears Orange */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #FFD700; /* A lighter shade for hover effect */
+}
+
+/* Section Headers */
+h2 {
+    color: #C83803; /* Bears Orange */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Features Section */
+.feature {
+    border: 2px solid #C83803; /* Bears Orange */
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+/* Footer */
+footer {
+    background-color: #C83803; /* Bears Orange */
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
+    
+.about-section {
+    background-color: #C83803; 
+    width: 100%;
+}
