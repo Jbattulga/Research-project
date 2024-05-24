@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; width: 100%; z-index: 1000;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Chicago Bears</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +29,13 @@
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#About">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#schedule">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#roster">Roster</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#Superbowl Aspirations!">Superbowl</a>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" href="#my process">My Process</a>
+                        </li>
                     </li>
                 </ul>
             </div>
@@ -49,9 +46,10 @@
     <div class="px-4 py-5 mb-5 text-center bg-light">
         <h1 class="display-5 fw-bold">Chicago Bears</h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Everything you need to know about the Chicago Bears for the exciting upcoming 2024-2025 NFL season.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Upcoming Schedule</button>
+        <p class="lead mb-4">Everything you need to know about the Chicago Bears for the exciting upcoming 2024-2025 NFL season.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+         <a href="https://www.profootballnetwork.com/chicago-bears-schedule-2024/" class="btn btn-primary btn-lg px-4 gap-3">Upcoming Schedule</a>
+        </div>
             </div>
         </div>
     </div>
@@ -61,29 +59,31 @@
     <!-- Column with Buttons -->
     <div class="row text-center mb-5">
         <div class="col-lg-4 mb-3">
-            <button type="button" class="btn btn-outline-primary btn-lg w-100" onclick="location.href='#news'">Latest News</button>
+        <a href="https://www.chicagobears.com/news/" class="btn btn-outline-primary btn-lg w-100">Latest News</a>
         </div>
         <div class="col-lg-4 mb-3">
-            <button type="button" class="btn btn-outline-primary btn-lg w-100" onclick="location.href='#roster'">Team Roster</button>
+            <a href="https://www.chicagobears.com/team/players-roster/" class="btn btn-outline-primary btn-lg w-100">Team Roster</a>
         </div>
         <div class="col-lg-4 mb-3">
-            <button type="button" class="btn btn-outline-primary btn-lg w-100" onclick="location.href='#hope'">Hope for the Season</button>
+            <a href="https://sports.yahoo.com/caleb-williams-one-erase-bears-233338384.html" class="btn btn-outline-primary btn-lg w-100">Hope for the Season</a>
         </div>
     </div>
   </div>
 <!-- ONE COLUMN START -->
-<div class="container py-5 about-section" id="about">
-    <div class="row">
-      <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
-      <p>
-        Welcome to the Chicago Bears Fan Page, where passion meets resilience and hope flourishes amidst uncertainty. As dedicated fans of the Chicago Bears, we are united by our unwavering support for the team and our shared belief in their potential to overcome any challenge. Through the highs and lows of each season, we draw inspiration from the team's resilience, learning valuable lessons in perseverance and determination. Our mission is to celebrate the rich history and culture of the Chicago Bears while exploring the enduring values of hope and resilience that transcend sports and find resonance in our daily lives. Join us on this journey as we continue to embody the spirit of the Chicago Bears and embrace the power of hope and resilience in both sports and life.
+<div class="about-section">
+    <div class="container py-5" id="about">
+        <div class="row">
+        <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
+        <p>
+            Welcome to the Chicago Bears Fan Page, where passion meets resilience and hope flourishes amidst uncertainty. As dedicated fans of the Chicago Bears, we are united by our unwavering support for the team and our shared belief in their potential to overcome any challenge. Through the highs and lows of each season, we draw inspiration from the team's resilience, learning valuable lessons in perseverance and determination. Our mission is to celebrate the rich history and culture of the Chicago Bears while exploring the enduring values of hope and resilience that transcend sports and find resonance in our daily lives. Join us on this journey as we continue to embody the spirit of the Chicago Bears and embrace the power of hope and resilience in both sports and life.
 
-      <p>
-        Dive into our user-friendly interface, designed to keep you updated with the latest news, schedules, and roster updates. Seamlessly navigate through sections dedicated to news, team information, and inspirational content, all while enjoying a visually engaging and intuitive browsing experience. Join our vibrant community of fans and discover how our website combines functionality with fandom, empowering you to stay connected and engaged with the Chicago Bears like never before.
-      </p>
+        <p>
+            Hop into our user-friendly website, designed to keep you updated with the latest news, schedules, and roster updates. Effortlessly navigate through sections dedicated to news, team information, and inspirational content, and enjoy a simple, effective, and easy browsing experience. Join Da Bear pack and discover how our website combines functionality with fandom, empowering you to stay connected and engaged with the Chicago Bears like never before.
+        </p>
+        </div>
     </div>
-  </div>
-  <!-- ONE COLUMN END -->
+</div>
+    <!-- ONE COLUMN END -->
 
     <!-- JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -110,9 +110,17 @@
     </div>
   </div>
   <!-- VIDEO SECTION END -->
+  
+  <div class="above-footer-section">
+      <div class="container">
+        <h2 id="my process" class="section-title">My Process</h2>
+          <p>Like many of you, I am an avid Bears fan. In the past we have been through a lot of failure, but we never lose hope. This year feels different to me, and I believe there is a big change coming to Bears football. This is why I created a website that keeps Bears fans up to date.</p>
+      </div>
+  </div>
 
 
   <!-- FOOTER -->
   <footer class="py-4 bg-dark text-white text-center">
     <p>&copy; 2024 Chicago Bears Fan Page</p>
 </footer>
+ 
